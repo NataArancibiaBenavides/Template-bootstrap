@@ -2,12 +2,15 @@
 	<html lang="en">
 	<head>
 		<meta charset="UTF-8">
+    <!-- especifica el ancho para que la pagina se adapte-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<!-- Agregue el link  del archivo minimizado pero me guie observando el archivo completo-->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 		<title> Template Bootstrap</title>
 	</head>
 	<body>
+
 	<header class="container">
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -50,33 +53,31 @@
 </header>
 
 <div class="container m">
-<section class="jumbotron row">
+<section class="jumbotron" style="padding: 12px" >
           <h1>THEME EXAMPLE</h1>
           <h4>This a temple</h4>
         </div>
       </div>
       </section>
       </div>
-<div class="container-fluid ">
+
+<section class="container" style="padding: 12px">
   <div class="row ">
    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-   <button class="btn btn-lg btn-default">Default</button>
-   <button class="btn btn-lg btn-primary">Primary</button>
-   <button class="btn btn-lg btn-success">Success</button>
-   <button class="btn btn-lg btn-info">Info</button>
-   <button class="btn btn-lg btn-warning">Warning</button>
-   <button class="btn btn-lg btn-danger">Danger</button>
-   <button class="btn btn-lg btn-link">Link</button>
-
+    <h1>Button</h1>
+ <button class="btn btn-lg btn-default">Default</button>
+  <button class="btn btn-lg btn-primary">Primary</button>
+  <button class="btn btn-lg btn-success">Success</button>
+  <button class="btn btn-lg btn-info">Info</button>
+  <button class="btn btn-lg btn-warning">Warning</button>
+  <button class="btn btn-lg btn-danger">Danger</button>
+  <button class="btn btn-lg btn-link">Link</button>
    </div>
-<div class="container-fluid uno">
-<div class="row">
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-</div>
-</div>
+   </div>
+   </section>
 
-  <div class="container-fluid ">
-  <div class="row marg ">
+  <section class="container" style="padding: 12px">
+  <div class="row marg "> 
    <div class=" marg col-lg-12 col-md-12 col-sm-12 col-xs-12">
    <button class="btn btn-default">Default</button>
    <button class="btn btn-primary">Primary</button>
@@ -87,13 +88,11 @@
    <button class="btn btn-link">Link</button>
 
   </div>
-<div class="container-fluid uno">
-<div class="row">
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-</div>
-</div>
+  </div>
+  </section>
 
-  <div class="container-fluid ">
+
+   <section class="container" style="´padding:12px">
   <div class="row marg ">
    <div class=" marg col-lg-12 col-md-12 col-sm-12 col-xs-12">
    <button class="btn btn-sm btn-default">Default</button>
@@ -104,17 +103,12 @@
    <button class="btn btn-sm btn-danger">Danger</button>
    <button class="btn btn-sm btn-link">Link</button>
 
-   </div>
-   <div class="container-fluid uno">
-<div class="row">
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-</div>
-</div>
-
-  <div class="container-fluid ">
+   </section>
+  
+  <section class="container" style="padding:12px">
   <div class="row marg ">
    <div class=" marg col-lg-12 col-md-12 col-sm-12 col-xs-12">
-   <button class="btn btn-xs btn-default">Default</button>
+  <button class="btn btn-xs btn-default">Default</button>
    <button class="btn btn-xs btn-primary">Primary</button>
    <button class="btn btn-xs btn-success">Success</button>
    <button class="btn btn-xs btn-info">Info</button>
@@ -122,7 +116,105 @@
    <button class="btn btn-xs btn-danger">Danger</button>
    <button class="btn btn-xs btn-link">Link</button>
 
-   </div>
+   </section>
+
+<section class="container">
+<div class="panel panel-default">
+  <div class="panel-heading">Panel heading</div>
+  <div class="panel-body">
+  <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+        <th>City</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Anna</td>
+        <td>Pitt</td>
+        <td>35</td>
+        <td>New York</td>
+        <td>USA</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+  </div>
+
+  <!-- Table -->
+  <table class="table">
+    ...
+  </table>
+</div>
+
+<section class="container" style="padding:10px">
+<h3>Thumbnail label</h3>
+<div class="row">
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+ <div class="caption">
+   
+                
+      <img src="img/gato.jpg" alt="gato">
+      
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<div class="container">
+<div class="page-header"><!-- page-header pone la raya abajo del titulo-->
+<h1>Labels</h1>
+</div>
+</div>
+<div class="l" style="padding:5px">
+<h1><span class="label label-default">Default</span>
+<span class="label label-primary">Primary</span>
+<span class="label label-success">Success</span>
+<span class="label label-info">Info</span>
+<span class="label label-warning">Warning</span>
+<span class="label label-danger">Danger</span></h1>
+</div>
+
+<h2><span class="label label-default">Default</span>
+<span class="label label-primary">Primary</span>
+<span class="label label-success">Success</span>
+<span class="label label-info">Info</span>
+<span class="label label-warning">Warning</span>
+<span class="label label-danger">Danger</span></h2>
+
+
+<div class="container">
+<div class="page-header"><!-- page-header pone la raya abajo del titulo-->
+<h1>PANEL</h1>
+</div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">Panel heading without title</div>
+  <div class="panel-body">
+    Panel content
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Panel title</h3>
+  </div>
+  <div class="panel-body">
+    Panel content
+  </div>
+</div>
+
 <!--<div class="row">
 <div class="col-12">
 <div class="page-header">
